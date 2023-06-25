@@ -18,6 +18,11 @@ header {
     /* margin-right: -30px; */
 }
 
+#logo-pic {
+    margin-top: 18px;
+    width: 80px;
+}
+
 .navbar {
     background-color: rgb(219, 41, 41);
     top:-10px;
