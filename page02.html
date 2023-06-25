@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- 響應式網站 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Bootstrap CSS & JS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts 繁體 & 英文 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/3308ada1b1.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="style.css">
+    <title>菉覺BloomerConer</title>
+</head>
+<body>
+    <!-- Nav 導覽列 -->
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <!-- 品牌 Logo -->
+                    <img id="logo-pic" src="pictures/logo01.png">
+                    <a class="navbar-brand" href="#">BloomerConer</a>
+                
+                    <!-- 第一部份:手機版 -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#linkbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!-- 第二部份:桌上型電腦版 -->
+                    <div class="collapse navbar-collapse" id="linkbar">
+                        <!-- 列出內容 -->
+                        <ul class="navbar-nav me-auto text-center">
+                            <li class="nav-item">
+                                <a class="nav-link"  href="index.html" id="Home">主頁</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link"  href="#">最新消息</a>
+                            </li>
+                            <!-- 下拉式選單 Dropdown 區塊1 -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">表達藝術治療</a>
+                            
+                                <!-- 下拉式選單選項 Dropdown items -->
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="page02.html">我們的團隊</a></li>
+                                    <li><a class="dropdown-item" href="page01.html">現象學派表達藝術治療</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">表達藝術治療個人輔導</a>
+                                    
+                                        <!-- 子選單 Level 2 -->
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">情緒尋解導向</a></li>
+                                            <li><a class="dropdown-item" href="#">各種壓力輔導</a></li>
+                                            <li><a class="dropdown-item" href="#">兒童行為問題</a></li>
+                                            <li><a class="dropdown-item" href="#">生涯規劃導向</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">表達藝術治療小組</a>
+                                        
+                                        <!-- 子選單 Level 3 -->
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">兒童情緒小組</a></li>
+                                            <li><a class="dropdown-item" href="#">兒童社交小組</a></li>
+                                            <li><a class="dropdown-item" href="#">家長支援小組</a></li>
+                                            <li><a class="dropdown-item" href="#">增強自信心小組</a></li>
+                                            <li><a class="dropdown-item" href="#">認識及探索自我小組</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            
+                            </li>
+                            <!-- 下拉式選單 Dropdown 區塊2 -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">有特殊學習需要訓練</a>
+                                
+                                <!-- 子選單 Level 3 -->
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">自閉症譜系障礙</a></li>
+                                    <li></li><a class="dropdown-item" href="#">專注力不足</a></li>
+                                    <li></li><a class="dropdown-item" href="#">過度活躍症</a></li>
+                                    <li></li><a class="dropdown-item" href="#">社交訓練</a></li>
+                                    <li></li><a class="dropdown-item" href="#">讀寫障礙</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link"  href="bath108.html">Bath 108</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link"  href="https://www.instagram.com/bloomerscorner/" id="Callour">聯絡我們</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link"  href="#">My.Vue作品</a>
+                            </li>
+                        </ul>
+
+                        <!-- Search搜尋 列出到右邊 -->
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="搜尋">
+                            <button class="btn btn-success" type="submit" style="background-color: rgb(0, 0, 0); border-color: black;">Search</button>
+                        </form>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section id="pageOne">
+        <div class="container">
+            <div class="row">
+                
+            </div>
+        </div>
+    </section>
+    <!-- 團隊介紹 -->
+    <section id="pageTwo">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="pictures/teacher01.jpg" class="card-img-top" alt="...">
+                    <h3>阿呆</h3>
+                    <div class="card-body">
+                      <h5 class="card-title">家長支援小組</h5>
+                      <p class="card-text">組織活動和工作坊：藝術的家長支援小組可以組織各種活動和工作坊，旨在促進孩子的藝術發展。這些活動可以包括藝術工作坊、演出、展覽、講座和討論會等等。透過這些活動，家長們可以學習和體驗不同的藝術形式，並與專業人士和其他家長進行互動。
+
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="pictures/teacher02.jpg" class="card-img-top" alt="...">
+                    <h3>正男</h3>
+                    <div class="card-body">
+                      <h5 class="card-title">兒童情緒小組</h5>
+                      <p class="card-text">促進情緒認知和情緒管理：透過參與兒童情緒小組，兒童可以學習認識和理解自己的情緒。他們可以透過藝術活動的過程中觀察、探索和討論不同的情感，並學習有效的情緒管理技巧。這些技巧可以幫助他們學會正確處理情緒，增強情緒調節能力，提升情緒的穩定性和自我調整能力。</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="pictures/teacher03.jpg" class="card-img-top" alt="...">
+                    <h3>風間徹</h3>
+                    <div class="card-body">
+                      <h5 class="card-title">增強自信心小組</h5>
+                      <p class="card-text">培養積極的心態：增強自信小組可以幫助個人培養積極的心態和自我評價。通過鼓勵成員們關注和強調他們的優點和成就，小組有助於轉移對缺點和失敗的關注，從而培養積極的自我形象。這種積極的心態能夠幫助個人在面對挑戰和困難時更有信心和勇氣。</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="pictures/teacher04.jpg" class="card-img-top" alt="...">
+                    <h3>小葵</h3>
+                    <div class="card-body">
+                      <h5 class="card-title">認識及探索自我小組</h5>
+                      <p class="card-text">探索個人興趣和目標：在認識及探索自我小組中，個人有機會發現和探索自己的興趣和目標。透過組內的交流和分享，個人可以從其他成員的經驗中獲取靈感和啟發，並發現新的興趣領域或職業方向。這種探索過程可以幫助個人更好地了解自己的興趣和熱情所在，從而做出更明智的生涯和生活選擇。</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                      <img src="pictures/teacher05.jpg" class="card-img-top" alt="...">
+                      <h3>小新</h3>
+                      <div class="card-body">
+                        <h5 class="card-title">兒童社交小組</h5>
+                        <p class="card-text">提供社交經驗和情境：兒童社交小組提供了一個模擬真實社交情境的機會，讓兒童可以在支持性的環境中實踐社交互動。他們可以與組內的其他兒童一起參與遊戲、合作活動和討論。透過這些經驗，兒童可以學會理解他人的觀點、分享自己的想法和需要，並建立起良好的互動方式。</p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <div class="containter">
+            <div class="row">
+                <div class="col-md-4 text-left">
+                    <img src="pictures/logo02.png" width="85">
+                    <p>BloomerConer 開創表達藝術無限可能及全新的文具用品店。不管是小朋友們或大人們無時無刻都可以任何地方畫畫!</p>
+                </div>
+                <div class="col-md-4 text-left">
+                    <h4>連結</h4>
+                    <ul>
+                        <li><a href="#Callour">主頁</a></li>
+                        <li><a href="#Home" >聯絡我們</a></li>
+                        <li><a href=https://www.instagram.com/bloomerscorner><i class="fa-brands fa-square-instagram fa-2xl" style="color: #d10e00;"></i></a></li>
+                        <li><a href=https://www.facebook.com/profile.php?id=100086625349289><i class="fa-brands fa-facebook fa-2xl" style="color: #015efe;"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 text-left">
+                    <h4>聯絡我們</h4>
+                    <p>香港粉嶺菉覺路666號 Bloom 666 2樓<br>
+                        Phone:(852)6481-0888<br>
+                        E-Mail: <a href="mailto:bloom@gmail.com">hkbloomerscorner@gmail.com</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

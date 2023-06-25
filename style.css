@@ -1,0 +1,391 @@
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+p,a,span,li,label{
+    font-family: 'Open Sans', sans-serif;
+}
+
+#logo.pic {
+    max-width: 100%;
+}
+
+header {
+    background-color: rgb(219, 41, 41);;
+    padding: 20px;
+    padding-bottom:40px;
+    margin-left: -30px;
+    /* margin-right: -30px; */
+}
+
+.navbar {
+    background-color: rgb(219, 41, 41);
+    top:-10px;
+    padding-top: 30px;
+    height: 50px;
+    max-width: 100%;
+}
+
+.navbar-brand {
+    padding-top: 15px;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.container li a {
+    font-size:15px;
+    padding: 15px;
+    color: black;
+    font-weight: 800;
+}
+
+.container li a:hover {
+    background-color: rgb(219, 41, 41);
+    color: white;
+}
+
+.d-flex{
+    display: block; 
+    align-items: center; 
+}
+
+.slide-pic {
+    width: 100%;
+    height: 850px;
+}
+
+.navbar {
+    z-index:999;
+}
+
+.navbar-nav {
+    background-color: rgb(219, 41, 41);
+    margin-top:10px;
+}
+
+.navbar-nav li:hover>ul.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top:0%;
+    left:100%;
+    margin-top: -20px;
+}
+
+.dropdown-menu>li>a:hover:after {
+    transform: rotate(-90deg);
+    transition: 1s;
+}
+
+#second {
+    padding: 60px;
+}
+
+.lead {
+    font-size: 25px;
+    padding: 40px;
+    font-weight: 800;
+}
+
+#thrid {
+    line-height: 60px;
+    background-color: rgb(255, 233, 225);
+}
+
+#thrid .display-4 {
+    padding: 30px;
+    font-size: 90px;
+}
+
+#thrid p {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+#emailLink {
+    padding: 120px;
+}
+
+#emailLink h3{
+    padding-bottom: 50px;
+    font-size: 40px;
+}
+
+#emailLink p{
+    color: darkgray;
+}
+
+.row .btn {
+    background-color: #f05f5c;
+    padding: 7px 28px;
+    border-radius: 20px;
+    border: none;
+}
+
+.row .btn:hover{
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+
+#emailLink{
+	padding: 80px 0px
+}
+
+footer{
+	padding: 80px 0px
+}
+
+#emailLink p{
+	margin-top: 40px;
+}
+
+#emailLink .btn{
+	margin-top: 10px;
+	font-size: 16px;
+}
+
+footer{
+	border-top: 1px solid rgba(0,0,0,0.09);
+    padding-left: 200px;
+    margin-left: 50px;
+}
+
+footer img{
+	margin-bottom: 30px;
+}
+
+footer h4{
+	font-size: 20px;
+    margin-bottom: 35px;
+
+}
+
+footer ul{
+	list-style: none;
+    padding: 0;
+}
+
+footer ul a{
+	color: #707070;
+}
+
+footer a{
+	color:#f05f5c;
+}
+
+footer a:hover{
+	color:#f05f5c;
+}
+
+footer ul a:hover{
+	color: #707070;
+	text-decoration: none;
+	opacity: 0.8;
+}
+
+footer ul li{
+	margin-bottom: 10px;
+}
+
+footer ul{
+	float: left;
+    margin-right: 46px;
+}
+
+footer li a {
+    line-height: 30px;
+}
+
+#solidRow{
+	border-top: 1px solid rgba(0,0,0,0.09);
+}
+
+#solidRow h2{
+	padding: 25px;
+}
+
+#pageMain .row {
+    padding: 50px;
+}
+
+#pageMain .col-md-8 h3 {
+    line-height: 80px;
+}
+
+#pageMain img {
+    width: 300px;
+    margin-right: 25px;
+}
+
+#pageTwo{
+    padding-top: 40px;
+}
+
+#pageTwo img{
+    border-radius: 2%;
+    width: 414px;
+}
+
+#pageTwo .card h3{
+    position: relative;
+    bottom: 50px;
+    left: 180px;
+    font-size: 30px;
+}
+
+#pageTwo .row {
+    margin-bottom: 80px;
+}
+
+#bathMain .shop img{
+    width: 400px;
+}
+
+#bathMain {
+	background: rgb(248, 248, 248);
+	padding: 80px 0px;
+}
+#bathMain .shopin{
+	position:relative;
+}
+#bathMain .price .innerprice{
+	bottom:20px;
+	left:30px;
+}
+#bathMain .innerprice .btn{
+	background-color: rgba(255, 1, 1, 0.849);
+}
+#bathMain h4{
+	font-size: 19px;
+    margin-top: 18px;
+}
+#bathMain .price{
+	    padding: 20px;
+}
+#bathMain .col-md-4 .shop{
+	box-shadow: 0 0 8px 0 rgba(0,0,0,0.08);
+	padding: 0px;
+	margin: 0 5px;
+}
+#bathMain .price h3{
+	font-size: 21px;
+	margin-bottom: 20px;
+}
+#bathMain a{
+	color:black;
+}
+#bathMain a{
+	color:black;
+	text-decoration: none;
+}
+
+#bathMain h1{
+    margin-bottom: 50px;
+    font-size: 100px;
+}
+
+#bathMain .col-md-12 .titleshop {
+    margin: 50px;
+    letter-spacing: 100px;
+    font-size: 50px;
+}
+
+#video h1 {
+    position: absolute;
+    margin: 50px;
+    left: 400px;
+    letter-spacing: 100px;
+    font-size: 50px;
+    z-index: 500;
+}
+
+#video  #myVideo{
+    position: relative;
+    left:0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+#myVideo {
+    position: relative;
+    bottom:200px;
+
+  }
+
+@media (max-width:600px){
+    header nav{
+        height: auto;
+    }
+    .slide-pic {
+        width: 100%;
+        height: auto;
+    }
+
+    #logo-pic {
+        max-width: 100%;
+        margin-right: -180px;
+        margin-top: -20px;
+    }
+
+    .navbar-brand {
+        margin-top: -20px;
+        margin-left: 50px;
+        font-weight: 800;
+    }
+
+    footer h4 {
+	    font-size: 17px;
+	    margin-top: 30px;
+	    margin-bottom: 18px;
+	}
+
+    footer {
+        margin-left: -30px;
+        padding-left: 50px;
+    }
+
+    #pageMain p,h2{
+        width: 400px;
+        margin-bottom: 25px;
+    }
+
+    #pageMain img {
+        margin-bottom: 25px;
+    }
+
+    #pageTwo .col-md-4{
+        margin-bottom: 80px;
+    }
+
+    #pageTwo img{
+        width: 100%;
+    }
+
+    #pageTwo .card h3{
+        position: relative;
+        bottom: 50px;
+        left: 200px;
+        font-size: 30px;
+    }
+
+    #video h1 {
+        position: absolute;
+        left: 100px;
+        top: 60px;
+        letter-spacing: 10px;
+        font-size: 25px;
+    }
+
+    #bathMain .col-md-12 .titleshop {
+        position: relative;
+        left: 50px;
+        font-size: 50px;
+    }
+}
